@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'fonts/PlayfairDisplay'
+    
+}
+
+* {
+    font-family: 'Playfair Display';
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url("fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+
+@media screen {
+    #header { 
+        margin: 0;
+        height: 52.5vw;
+        min-width: 99vw;
+        background-image: url("images/junglebackgroundlake.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 0;
+    }
+
+   
+}
+
+#name-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    font: inherit;
+    font-size: 70px;
+    font-weight: 500;
+    background: rgb(211,211,211, 0.8);
+    padding: 10px 5px;
+    margin-top: 25vw;
+}
+
+#about-section {
+    margin: 5% 10% 5% 15%;
+    display: flex;
+}
+
+#about-section-title {
+    font-size: xx-large;
+    margin-left: 29%;
+}
+
+#selfie {
+    border-radius: 50%;
+    margin-top: 2%;
+    width: 95%;
+}
+
+#section-header {
+    margin-right: 15%;
+}
+
+#about-content {
+    margin-left: 0;
+}
+
+#title-about-content{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-style: bold;
+}
+
+#descrip-about-content{
+    font-weight: 400;
+    font-style: normal;
+}
+
+#work {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+#work-experience{
+    display: grid;
+    row-gap: 5%;
+}
+
+#personal-projects{
+    display: grid;
+    row-gap: 5%;
+}
+
+#work-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.center{
+    text-align: center;
+}
+
+.underline{
+    font-style: oblique;
+}
+
+.container{
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-left: 0;
+    min-width: 120%;
+}
+
+.normal{
+    font-style: normal;
+}
+
+#fixed-width{
+    min-width: 215%;
+}
+
+#social{
+    margin-bottom: 3%;
+}
+
+#contact{
+    margin-bottom: 5%;
+}
+
+#home-btn {
+    margin-bottom: 3%;
+}
+
+#home-btn:hover {
+    background-color: red;
+}

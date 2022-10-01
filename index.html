@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Nemerjit Singh">
+        <meta name="description" content="Nemer's Personal Website">
+        <title>Nemer's Website</title>
+        <link rel="icon" href="images/turtleicon.jpg">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <div id="name-title">
+                <h1 id="name">Nemerjit Singh</h1>
+            </div>
+        </div>
+        <div id="about-section">
+            <div id="section-header">
+                <h2 id="about-section-title">About</h2>
+                <a href="https://www.linkedin.com/in/nemerjit-singh-054159201" target="_blank">
+                    <img id="selfie" src="images/nemer_img.jpg" alt="Nemer Pic">
+                </a>
+            </div>
+            <div id="about-content">
+                <h3 id="title-about-content">Developer | Entrepreneur</h3>
+                <h4 id="descrip-about-content">Hi, I'm Nemer. I am an aspiring developer with experience in Full Stack Development, Data Analysis, and ML. I'm hoping to expand my skills to eventually create my own company!</h4>
+            </div>
+        </div>
+        <div id="work-title">
+            <h2>Work</h2>
+        </div>
+        <div id="work">
+            
+            <div id="work-experience">
+                <h3>Work Experience</h3>
+                <div class="container">
+                    <h4 class="center oblique">Backend Developer Intern</h4>
+                    <h5 class="center normal"><a href="https://archaos.vercel.app/" target="_blank">Archaos</a></h5>
+                    <h6 class="normal center">Database management and development</h6>
+                </div>
+                <div class="container">
+                    <h4 class="center oblique">Full Stack Research Intern</h4>
+                    <h5 class="center normal"><a href="https://coolclimate.berkeley.edu/calculator" target="_blank">CoolClimate</a></h5>
+                    <h6 class="normal center">Database management, Data Analysis, Frontend Development</h6>
+                </div>
+                <div class="container">
+                    <h4 class="center oblique">Team Lead, Full Stack Developer</h4>
+                    <h5 class="center normal">Punjabi Art Collective Website</h5>
+                    <h6 class="normal center">Frontend Development, Ecommerce/API Integration, Backend Development</h6>
+                </div>
+            </div>
+            <div id="personal-projects">
+                <h3>Personal Projects</h3>
+                <div class="container" id="fixed-width">
+                    <h4 class="center oblique">Full Stack Development</h4>
+                    <h5 class="center normal"><a href="https://passwordgeneratorrandom.netlify.app/" target="_blank">Random Password Generator</a></h5>
+                    <h6 class="normal center">HTML5, CSS3, Javascript</h6>
+                </div>
+                <div class="container" id="fixed-width">
+                    <h4 class="center oblique">Full Stack Development</h4>
+                    <h5 class="center normal"><a href="https://blackjacknogambling.netlify.app/" target="_blank">Blackjack</a></h5>
+                    <h6 class="normal center">HTML5, CSS3, Javascript</h6>
+                </div>
+                <div class="container" id="fixed-width">
+                    <h4 class="center oblique">Frontend Development</h4>
+                    <h5 class="center normal"><a href="https://visitinterlaken.netlify.app/" target="_blank">Visit Interlaken</a></h5>
+                    <h6 class="normal center">HTML5, CSS3</h6>
+                </div>
+            </div>
+
+        </div>
+        <div id="contact">
+            <h2 class="center">Contact</h2>
+            <div id="social">
+                <h3 class="center">email: <a href="mailto: nemerjitsingh@berkeley.edu?" target="_blank">nemerjitsingh@berkeley.edu</a></h3>
+                <h3 class="center">linkedin: <a href="https://www.linkedin.com/in/nemerjit-singh-054159201" target="_blank">Nemerjit Singh</a></h3>
+                <h3 class="center">github: <a href="https://github.com/nemerjit">nemerjit</a></h3>
+            </div>
+            <h3 class="center">Contact Me!</h3>
+            <form class="center">
+                <label>Name:</label>
+                <input type="text" id="input-name">
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type="text" id="input-email">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <button id="home-btn" onclick="window.location.href='index.html';">Top of the Page</button>
+        <script>
+            let name = document.getElementById('input-name')
+            let email = document.getElementById('input-email')
+
+            if (name && email) {
+                alert('Thank you for contacting me! I will never respond to you!');
+            }
+
+        </script>
+    </body>
+
+</html>
